@@ -8,7 +8,7 @@ export default function Roadsafety() {
     <>
     <div>
       <h1 className='font-bold text-center flex flex-col items-center text-4xl mt-14'>Road Safety<br></br></h1>
-      <p className='text-2xl text-center flex flex-col'> NHTSA promotes safe behaviors on our nation’s roads.</p>
+      <p className='text-2xl text-center flex flex-col'> We promotes safe behaviors on our nation’s roads.</p>
       <div className='grid grid-cols-4 gap-4 ml-44 mt-12 mb-44'>
         <div className="card">
           <div className="card-details">

@@ -29,7 +29,7 @@ export default function Pedestrainsafety() {
                 <li>Be extra cautious when backing up and look for pedestrians.</li>
 
             </ul>
-            <h1 className='font-bold text-3xl  mt-14 text-yellow-700'>8 Safety Tips for Drivers</h1>
+            <h1 className='font-bold text-3xl  mt-14 text-yellow-700'>8 Safety Tips for Walkers</h1>
             <ul className='list-disc'>
                 <li>Follow the rules of the road and obey signs and signals.</li>
                 <li>Walk on sidewalks whenever they are available.

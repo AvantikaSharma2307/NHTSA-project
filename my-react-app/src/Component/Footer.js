@@ -12,14 +12,11 @@ export default function Footer() {
      <div className="container">
       <div className="row">
         <div className="footer-col">
-          <img src="https://www.nhtsa.gov/themes/custom/nhtsa/images/NHTSA-logo-small-viewport.svg" alt="NHTSA"></img>
-          <p className='text-white mt-14'>National Highway Traffic Safety Administration
-
-         1200 New Jersey Avenue, SE
-           Washington, D.C. 20590
-
-          888-327-4236,
-          877-561-7439 (TTY)</p>
+          
+          <p className='text-white mt-4 text-5xl font-bold'>Steppers</p><br/>
+          <p className='text-white'>"Empathy in Every Turn: Navigating the Road to Recovery.
+             Your Compassionate Guide for Support, Resources, and Resilience After a Road Accident.
+              Together, We Strive for Healing and Justice on the Journey to Restoration."</p>
 
 
         </div>

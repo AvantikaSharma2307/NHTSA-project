@@ -24,7 +24,11 @@ export default function Middle() {
         <div className=' ml-96 mt-44'>
              <img src="https://www.nhtsa.gov/themes/custom/nhtsa//images/icon-trending.png"className='pl-40' alt="trending"></img>
              <p className='font-bold text-3xl'>Trending News</p>
-
+             <h1 className='text-blue-500 font-bold text-lg hover:text-blue-300 ml-16'>Drunk Driving</h1>
+             <h1 className='text-blue-500 font-bold text-lg hover:text-blue-300 ml-16 ' >Speeding</h1>
+             <h1 className='text-blue-500 font-bold text-lg hover:text-blue-300 ml-16 mb-12' >Seat Belts</h1>
+             <h1>Driver Assistance Technologies</h1>
+              <img src="https://www.nhtsa.gov/sites/nhtsa.gov/files/adas-main-image-04-553x713.jpg" alt="driver" className='w-56'></img>
             </div>
             <div className='mt-28'>
             <img src="https://i.pinimg.com/564x/c5/07/f9/c507f9b7a3e9cb07bc394ff9075d5ec6.jpg" alt="child" className='h-3/4'></img>

@@ -13,6 +13,7 @@ import Pedestrainsafety from './Component/Pedestrainsafety';
 import Schoolbus from './Component/schoolbus';
 import Vehicle from './Component/Vehicle';
 import Teen from './Component/Teen';
+import Complaint from './Component/Complaint';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/schoolbus-safety'element={<Schoolbus/>}></Route>
         <Route path="/vehicle-safety"element={<Vehicle/>}></Route>
         <Route path='/teen-safety'element={<Teen/>}></Route>
+        <Route path='/complaint'element={<Complaint/>}></Route>
       </Routes>
      </Router>
     <Footer/>

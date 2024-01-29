@@ -1,0 +1,96 @@
+ .body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+.background-image {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/145/524/non_2x/car-accident-background-illustration-with-two-cars-colliding-or-hitting-something-on-the-road-causing-damage-in-flat-style-vector.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+  h1, h2 {
+    color: #333;
+}
+
+.safety-precautions {
+    margin-bottom: 20px;
+}
+
+.safety-precautions h2 {
+    color: #200ba8;
+}
+
+.safety-precautions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.safety-precautions li {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color:#200ba8;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2b10d8;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.hiddenform {
+    display: none;
+}
+
+#confirmationMessage
+{
+    margin-top: 20px;
+    color: #011402;
+}  

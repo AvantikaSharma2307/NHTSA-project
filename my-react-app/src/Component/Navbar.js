@@ -12,11 +12,7 @@ export default function Navbar() {
       <nav className="bg-white shadow dark:bg-blue-800">
         <div className="container flex items-center justify-between p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
           <div className="flex items-center">
-            <img
-              src="https://www.nhtsa.gov/themes/custom/nhtsa/images/NHTSA-logo-small-viewport.svg"
-              className="w-56 float-left p-6 "
-              alt="NHTSA Logo"
-            />
+           <h1 className='text-8xl text-white'>Steppers</h1>
           </div>
 
           <div className="hidden sm:flex space-x-4">
@@ -30,7 +26,7 @@ export default function Navbar() {
              Road Safety
             </a>
             <a
-              href="/complain"
+              href="/complaint"
               className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 font-bold"
             >
               Complain
